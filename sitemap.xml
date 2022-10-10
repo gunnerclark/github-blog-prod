@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.theinept.dev/about/</loc>
+    <loc>https://theinept.blog/about/</loc>
   </url><url>
-    <loc>https://blog.theinept.dev/posts/my-first-post/</loc>
+    <loc>https://theinept.blog/posts/my-first-post/</loc>
     <lastmod>2022-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.theinept.dev/posts/</loc>
+    <loc>https://theinept.blog/posts/</loc>
     <lastmod>2022-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.theinept.dev/tags/rambling/</loc>
+    <loc>https://theinept.blog/tags/rambling/</loc>
     <lastmod>2022-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.theinept.dev/tags/</loc>
+    <loc>https://theinept.blog/tags/</loc>
     <lastmod>2022-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.theinept.dev/</loc>
+    <loc>https://theinept.blog/</loc>
     <lastmod>2022-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.theinept.dev/categories/</loc>
+    <loc>https://theinept.blog/categories/</loc>
   </url>
 </urlset>
