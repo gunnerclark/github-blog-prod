@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://theinept.blog/about/</loc>
+    <loc>https://gunnerclark.blog/about/</loc>
   </url><url>
-    <loc>https://theinept.blog/posts/my-first-post/</loc>
+    <loc>https://gunnerclark.blog/</loc>
     <lastmod>2022-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://theinept.blog/posts/</loc>
+    <loc>https://gunnerclark.blog/posts/my-first-post/</loc>
     <lastmod>2022-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://theinept.blog/tags/rambling/</loc>
+    <loc>https://gunnerclark.blog/posts/</loc>
     <lastmod>2022-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://theinept.blog/tags/</loc>
+    <loc>https://gunnerclark.blog/tags/rambling/</loc>
     <lastmod>2022-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://theinept.blog/</loc>
+    <loc>https://gunnerclark.blog/tags/</loc>
     <lastmod>2022-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://theinept.blog/categories/</loc>
+    <loc>https://gunnerclark.blog/categories/</loc>
   </url>
 </urlset>

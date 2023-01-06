@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>the inept blog</title>
-    <link>https://theinept.blog/</link>
-    <description>the inept blog</description>
+    <title>gunner clark</title>
+    <link>https://gunnerclark.blog/</link>
+    <description>gunner clark</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Oct 2022 00:00:00 +0000</lastBuildDate>
     
-    <atom:link href="https://theinept.blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gunnerclark.blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://theinept.blog/about/</link>
+      <link>https://gunnerclark.blog/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://theinept.blog/about/</guid>
+      <guid>https://gunnerclark.blog/about/</guid>
       <description>&lt;p&gt;If we haven&amp;rsquo;t met, &lt;strong&gt;my name is Gunner Clark&lt;/strong&gt;. I&amp;rsquo;m a software engineer with a passion for health and fitness. When I&amp;rsquo;m not building apps or frying PCBs I&amp;rsquo;m researching and testing different methods to improve health and performance.&lt;/p&gt;
 &lt;p&gt;This blog is intended to be a place for me to share anything that I feel is worth putting out into the world. I&amp;rsquo;m sure I&amp;rsquo;ll also use it to ramble about my latest hyperfixation. Time will tell!&lt;/p&gt;
 </description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>My First Post</title>
-      <link>https://theinept.blog/posts/my-first-post/</link>
+      <link>https://gunnerclark.blog/posts/my-first-post/</link>
       <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://theinept.blog/posts/my-first-post/</guid>
+      <guid>https://gunnerclark.blog/posts/my-first-post/</guid>
       <description>&lt;p&gt;My previous blog was trouble to work with so I quickly tossed this one together! There are a lot of things I would like to share. I have a couple coding projects in the works and some health and fitness ideas I want to cover. I&amp;rsquo;ll share more in the future.&lt;/p&gt;
 </description>
     </item>
