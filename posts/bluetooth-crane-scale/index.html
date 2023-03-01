@@ -10,15 +10,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Posts - gunner clark</title>
+<title>Bluetooth Crane Scale - gunner clark</title>
 
-<meta name="description" content="My name is Gunner Clark. I&#39;m a software engineer with a passion for health and fitness. This blog is intended to be a place for me to share anything that I feel is worth putting out into the world. I&#39;m sure I&#39;ll also use it to ramble about my latest hyperfixation.">
-
-
+<meta name="description" content="Explanation and status of my Bluetooth crane scale project.">
 
 
 
-<link rel="alternate" type="application/rss+xml" href="https://gunnerclark.blog/posts/index.xml" title="gunner clark" />
+
+
 <link rel="icon" type="image/x-icon" href="https://gunnerclark.blog/favicon.ico">
 <link rel="apple-touch-icon-precomposed" href="https://gunnerclark.blog/favicon.png">
 
@@ -85,17 +84,19 @@
 
 
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="My name is Gunner Clark. I&#39;m a software engineer with a passion for health and fitness. This blog is intended to be a place for me to share anything that I feel is worth putting out into the world. I&#39;m sure I&#39;ll also use it to ramble about my latest hyperfixation." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://gunnerclark.blog/posts/" /><meta property="og:image" content="https://gunnerclark.blog/images/og-featured.png"/>
+<meta property="og:title" content="Bluetooth Crane Scale" />
+<meta property="og:description" content="Explanation and status of my Bluetooth crane scale project." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gunnerclark.blog/posts/bluetooth-crane-scale/" /><meta property="og:image" content="https://gunnerclark.blog/images/og-featured.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-02-28T00:00:00+00:00" />
 
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://gunnerclark.blog/images/og-featured.png"/>
 
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="My name is Gunner Clark. I&#39;m a software engineer with a passion for health and fitness. This blog is intended to be a place for me to share anything that I feel is worth putting out into the world. I&#39;m sure I&#39;ll also use it to ramble about my latest hyperfixation."/>
+<meta name="twitter:title" content="Bluetooth Crane Scale"/>
+<meta name="twitter:description" content="Explanation and status of my Bluetooth crane scale project."/>
 
 
 
@@ -204,22 +205,84 @@ if (!doNotTrack) {
         </header>
         <main id="main" tabindex="-1"> 
             
-    <div class="index-content">
-        
-    </div>
+    
 
-    <div class="articles h-feed">
-        <h1 class="post-title">Posts</h1>
-        
-        
-            <div class="post-short-list h-entry">
-                <div class="post-header">
-                    <header>
-                        <h2 class="p-name post-title"><a class="u-url" href="/posts/bluetooth-crane-scale/">Bluetooth Crane Scale</a></h2>
-                        
-                    </header>
-                </div>
+    <article class="post h-entry">
+        <div class="post-header">
+            <header>
+                <h1 class="p-name post-title">Bluetooth Crane Scale</h1>
+
                 
+            </header>
+        </div>
+        <div class="content e-content">
+            <p>I was hoping to post about this project once it&rsquo;s completed <em>but</em> I wasn&rsquo;t able to finish it this month. I would like to be writing here at least once a month this year and I’m already pushing it since it&rsquo;s the last day of February. So I&rsquo;ll just explain the project and my work so far!</p>
+<h2 id="a-bluetooth-crane-scale" >A Bluetooth Crane Scale?
+<span>
+    <a href="#a-bluetooth-crane-scale">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h2><p>I originally started this project as a means of tracking progress with the <a href="https://www.youtube.com/watch?v=lr42wkPmWYU">One Arm Chin Up</a>. The goal was to use the crane scale with the assisting side which can then be used to determine if you are using less and less assistance each week. Alternatively you could use it with the working side and track progress based on increased force output.</p>
+<p>The only trackable crane scales I have been able to find are from <a href="https://tindeq.com/?post_type=product">tindeq</a> and their <a href="https://tindeq.com/product/progressor/">cheapest one</a> is $150 as of writing this post. It was exactly what I was looking for but I found the price a little steep. So I figured this would be a good opportunity to learn some new things. This project has given me the opportunity to work on my soldering, app development, and 3D modeling/printing.</p>
+<h2 id="the-process" >The Process
+<span>
+    <a href="#the-process">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h2><p>These are the steps I have laid out for this project:</p>
+<ol>
+<li>Wire the <a href="https://www.amazon.com/gp/product/B0713XK923/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">Arduino Module</a>, <a href="https://www.amazon.com/gp/product/B01D1FECVI/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">Amplifier Module</a>, <a href="https://www.amazon.com/gp/product/B01G9KSAF6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">Bluetooth Module</a>, and <a href="https://www.amazon.com/gp/product/B07BXBS93X/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">9V Battery Holder</a> to the crane scale.</li>
+<li>Model and print a new back panel to the crane scale case that accommodates for both the Bluetooth pairing button and the new battery holder.</li>
+<li>Write the mobile app for Bluetooth crane scale. I don&rsquo;t intend to spend too much time on the app itself. I only want to capture, display, and export the data.</li>
+</ol>
+<h2 id="where-i-left-off" >Where I Left Off
+<span>
+    <a href="#where-i-left-off">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h2><p>To be perfectly honest I couldn&rsquo;t remember exactly where I left off with this project. I put it on hold for a while so I could work on other things.</p>
+<p>After looking everything over, I have both the Arduino Module and the Amplifier Module wired to the crane scale. I have also successfully tested the Bluetooth Module so it just needs soldered to the Arduino. Once that is done, all that is left on the hardware side of things is to rewire the power source and model/print the back panel. As for the software, I have the bare-bones of the app written and it&rsquo;s able to receive the data but it isn&rsquo;t doing anything with it. I still need to write all the functionality for it.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Arduino Module</th>
+<th style="text-align:right">Amplifier Module</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><img src="../bluetooth-crane-scale/arduino_nano.jpg" alt="Arduino Module"></td>
+<td style="text-align:right"><img src="../bluetooth-crane-scale/weighing_sensor_amplifier.jpg" alt="Weighing Sensor Amplifier Module"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Bluetooth Module</th>
+<th style="text-align:right">Crane Scale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><img src="../bluetooth-crane-scale/bluetooth_module.jpg" alt="Bluetooth Module"></td>
+<td style="text-align:right"><img src="../bluetooth-crane-scale/crane_scale.jpg" alt="Crane Scale"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="next-steps" >Next Steps
+<span>
+    <a href="#next-steps">
+        <svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+    </a>
+</span>
+</h2><p>With all that said, I&rsquo;ll be picking up where I left off. I need to finish wiring the modules, close up the case, and finish up the app. Once I have that done I&rsquo;ll write a post on the completed project!</p>
+
+        </div>
+        
 
     
 
@@ -255,85 +318,25 @@ if (!doNotTrack) {
     </div>
 </div>
 
-            </div>
+    </article>
+
+    
         
-            <div class="post-short-list h-entry">
-                <div class="post-header">
-                    <header>
-                        <h2 class="p-name post-title"><a class="u-url" href="/posts/early-2023-strength-testing/">Early 2023 Strength Testing</a></h2>
-                        
-                    </header>
-                </div>
-                
+        
+    
 
     
 
-
-<div class="post-info">
     
-        <div class="post-date dt-published">2023-01-10</div>
-    
-
-    <a class="post-hidden-url u-url" href="https://gunnerclark.blog/posts/early-2023-strength-testing/">https://gunnerclark.blog/posts/early-2023-strength-testing/</a>
-    <a href="https://gunnerclark.blog/" class="p-name p-author post-hidden-author h-card" rel="me">Gunner Clark</a>
-
-
-    <div class="post-taxonomies">
         
-            
-                <ul class="post-tags">
-                    
-                        
-                        <li><a href="https://gunnerclark.blog/tags/strength/">#strength</a></li>
-                    
-                        
-                        <li><a href="https://gunnerclark.blog/tags/mobility/">#mobility</a></li>
-                    
-                </ul>
-        
-    </div>
-</div>
 
-            </div>
-        
-            <div class="post-short-list h-entry">
-                <div class="post-header">
-                    <header>
-                        <h2 class="p-name post-title"><a class="u-url" href="/posts/my-first-post/">My First Post</a></h2>
-                        
-                    </header>
-                </div>
-                
+
+
+
+
+
 
     
-
-
-<div class="post-info">
-    
-        <div class="post-date dt-published">2022-10-04</div>
-    
-
-    <a class="post-hidden-url u-url" href="https://gunnerclark.blog/posts/my-first-post/">https://gunnerclark.blog/posts/my-first-post/</a>
-    <a href="https://gunnerclark.blog/" class="p-name p-author post-hidden-author h-card" rel="me">Gunner Clark</a>
-
-
-    <div class="post-taxonomies">
-        
-            
-                <ul class="post-tags">
-                    
-                        
-                        <li><a href="https://gunnerclark.blog/tags/rambling/">#rambling</a></li>
-                    
-                </ul>
-        
-    </div>
-</div>
-
-            </div>
-        
-    </div>
-
 
         </main>
         

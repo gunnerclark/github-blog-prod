@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>soldering on gunner clark</title>
+    <link>https://gunnerclark.blog/tags/soldering/</link>
+    <description>gunner clark (soldering)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://gunnerclark.blog/tags/soldering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bluetooth Crane Scale</title>
+      <link>https://gunnerclark.blog/posts/bluetooth-crane-scale/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunnerclark.blog/posts/bluetooth-crane-scale/</guid>
+      <description>&lt;p&gt;I was hoping to post about this project once it&amp;rsquo;s completed &lt;em&gt;but&lt;/em&gt; I wasn&amp;rsquo;t able to finish it this month. I would like to be writing here at least once a month this year and I’m already pushing it since it&amp;rsquo;s the last day of February. So I&amp;rsquo;ll just explain the project and my work so far!&lt;/p&gt;
+&lt;h2 id=&#34;a-bluetooth-crane-scale&#34; &gt;A Bluetooth Crane Scale?
+&lt;span&gt;
+    &lt;a href=&#34;#a-bluetooth-crane-scale&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;I originally started this project as a means of tracking progress with the &lt;a href=&#34;https://www.youtube.com/watch?v=lr42wkPmWYU&#34;&gt;One Arm Chin Up&lt;/a&gt;. The goal was to use the crane scale with the assisting side which can then be used to determine if you are using less and less assistance each week. Alternatively you could use it with the working side and track progress based on increased force output.&lt;/p&gt;
+&lt;p&gt;The only trackable crane scales I have been able to find are from &lt;a href=&#34;https://tindeq.com/?post_type=product&#34;&gt;tindeq&lt;/a&gt; and their &lt;a href=&#34;https://tindeq.com/product/progressor/&#34;&gt;cheapest one&lt;/a&gt; is $150 as of writing this post. It was exactly what I was looking for but I found the price a little steep. So I figured this would be a good opportunity to learn some new things. This project has given me the opportunity to work on my soldering, app development, and 3D modeling/printing.&lt;/p&gt;
+&lt;h2 id=&#34;the-process&#34; &gt;The Process
+&lt;span&gt;
+    &lt;a href=&#34;#the-process&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;These are the steps I have laid out for this project:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Wire the &lt;a href=&#34;https://www.amazon.com/gp/product/B0713XK923/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;amp;psc=1&#34;&gt;Arduino Module&lt;/a&gt;, &lt;a href=&#34;https://www.amazon.com/gp/product/B01D1FECVI/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;amp;psc=1&#34;&gt;Amplifier Module&lt;/a&gt;, &lt;a href=&#34;https://www.amazon.com/gp/product/B01G9KSAF6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;amp;psc=1&#34;&gt;Bluetooth Module&lt;/a&gt;, and &lt;a href=&#34;https://www.amazon.com/gp/product/B07BXBS93X/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;amp;psc=1&#34;&gt;9V Battery Holder&lt;/a&gt; to the crane scale.&lt;/li&gt;
+&lt;li&gt;Model and print a new back panel to the crane scale case that accommodates for both the Bluetooth pairing button and the new battery holder.&lt;/li&gt;
+&lt;li&gt;Write the mobile app for Bluetooth crane scale. I don&amp;rsquo;t intend to spend too much time on the app itself. I only want to capture, display, and export the data.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;where-i-left-off&#34; &gt;Where I Left Off
+&lt;span&gt;
+    &lt;a href=&#34;#where-i-left-off&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;To be perfectly honest I couldn&amp;rsquo;t remember exactly where I left off with this project. I put it on hold for a while so I could work on other things.&lt;/p&gt;
+&lt;p&gt;After looking everything over, I have both the Arduino Module and the Amplifier Module wired to the crane scale. I have also successfully tested the Bluetooth Module so it just needs soldered to the Arduino. Once that is done, all that is left on the hardware side of things is to rewire the power source and model/print the back panel. As for the software, I have the bare-bones of the app written and it&amp;rsquo;s able to receive the data but it isn&amp;rsquo;t doing anything with it. I still need to write all the functionality for it.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Arduino Module&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Amplifier Module&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;../bluetooth-crane-scale/arduino_nano.jpg&#34; alt=&#34;Arduino Module&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;img src=&#34;../bluetooth-crane-scale/weighing_sensor_amplifier.jpg&#34; alt=&#34;Weighing Sensor Amplifier Module&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Bluetooth Module&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Crane Scale&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img src=&#34;../bluetooth-crane-scale/bluetooth_module.jpg&#34; alt=&#34;Bluetooth Module&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;img src=&#34;../bluetooth-crane-scale/crane_scale.jpg&#34; alt=&#34;Crane Scale&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;next-steps&#34; &gt;Next Steps
+&lt;span&gt;
+    &lt;a href=&#34;#next-steps&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;With all that said, I&amp;rsquo;ll be picking up where I left off. I need to finish wiring the modules, close up the case, and finish up the app. Once I have that done I&amp;rsquo;ll write a post on the completed project!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
