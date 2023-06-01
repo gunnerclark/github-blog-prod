@@ -6,10 +6,46 @@
     <description>gunner clark (soldering)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 May 2023 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="https://gunnerclark.blog/tags/soldering/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mid 2023 Projects</title>
+      <link>https://gunnerclark.blog/posts/mid-2023-projects/</link>
+      <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunnerclark.blog/posts/mid-2023-projects/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t had the time to write a full post so I figured I would briefly write about the projects I&amp;rsquo;m currently working on. I&amp;rsquo;ll discuss these projects in more depth in the future. There are two main projects that I&amp;rsquo;m working on, one is an RFID cat bowl and the other is a voxel game.&lt;/p&gt;
+&lt;h2 id=&#34;rfid-cat-bowl&#34; &gt;RFID Cat Bowl
+&lt;span&gt;
+    &lt;a href=&#34;#rfid-cat-bowl&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;I started the RFID cat bowl project to help my cats lose some weight. They have always shared a bowl so I figured it would be easier to portion out their food if they can only access their respective bowls.&lt;/p&gt;
+&lt;p&gt;Tools:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arduino Nano&lt;/li&gt;
+&lt;li&gt;RFID Modules&lt;/li&gt;
+&lt;li&gt;RFID Tags&lt;/li&gt;
+&lt;li&gt;Step Motors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;voxel-game&#34; &gt;Voxel Game
+&lt;span&gt;
+    &lt;a href=&#34;#voxel-game&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;My friend and I started the voxel game to get a better understanding of what game development is like. It also provides an opportunity to learn Rust and work collaboratively.&lt;/p&gt;
+&lt;p&gt;Tools:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rust&lt;/li&gt;
+&lt;li&gt;Bevy Engine&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Bluetooth Crane Scale</title>
