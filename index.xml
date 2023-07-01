@@ -6,7 +6,7 @@
     <description>gunner clark</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 May 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="https://gunnerclark.blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,35 @@
       <guid>https://gunnerclark.blog/about/</guid>
       <description>&lt;p&gt;If we haven&amp;rsquo;t met, &lt;strong&gt;my name is Gunner Clark&lt;/strong&gt;. I&amp;rsquo;m a software engineer with a passion for health and fitness. When I&amp;rsquo;m not building apps or frying PCBs I&amp;rsquo;m researching and testing different methods to improve health and performance.&lt;/p&gt;
 &lt;p&gt;This blog is intended to be a place for me to share anything that I feel is worth putting out into the world. I&amp;rsquo;m sure I&amp;rsquo;ll also use it to ramble about my latest hyperfixation. Time will tell!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>YouTube Shorts Firefox Extension</title>
+      <link>https://gunnerclark.blog/posts/youtube-shorts-firefox-extension/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunnerclark.blog/posts/youtube-shorts-firefox-extension/</guid>
+      <description>&lt;p&gt;Earlier this month I tried my hand at making a Firefox extension.&lt;/p&gt;
+&lt;h2 id=&#34;firefox-extension&#34; &gt;Firefox Extension
+&lt;span&gt;
+    &lt;a href=&#34;#firefox-extension&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;I found myself in need of a Firefox extension that redirects YouTube Shorts to their respective &amp;ldquo;watch&amp;rdquo; pages.&lt;/p&gt;
+&lt;p&gt;From
+&lt;code&gt; &amp;quot;https://www.youtube.com/shorts/&amp;lt;video-id&amp;gt;&amp;quot;&lt;/code&gt; 
+to 
+&lt;code&gt;&amp;quot;https://www.youtube.com/watch?v=&amp;lt;video-id&amp;gt;&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I decided to tackle this issue myself rather than searching for an existing extension. This gave me an opportunity to learn about Firefox extensions and how they&amp;rsquo;re created. &lt;a href=&#34;https://github.com/gunnerclark/firefox-shorts-to-watch&#34;&gt;What I ended up with&lt;/a&gt; definitely isn&amp;rsquo;t my best work but it does the job and I now have a &lt;em&gt;much&lt;/em&gt; better understanding of how Firefox extensions are structured and what permissions they require.&lt;/p&gt;
+&lt;h2 id=&#34;wrap-up&#34; &gt;Wrap Up
+&lt;span&gt;
+    &lt;a href=&#34;#wrap-up&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;If you can spare the time, it may benefit you to create something yourself rather than getting it elsewhere. This is not unique to programming. For example, you may decide to cook a meal you&amp;rsquo;re craving rather than ordering it. Whatever it is, just give it your best shot and odds are you&amp;rsquo;ll learn something from it.&lt;/p&gt;
 </description>
     </item>
     
