@@ -6,7 +6,7 @@
     <description>gunner clark</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Jul 2023 00:00:00 +0000</lastBuildDate>
     
     <atom:link href="https://gunnerclark.blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,30 @@
       <guid>https://gunnerclark.blog/about/</guid>
       <description>&lt;p&gt;If we haven&amp;rsquo;t met, &lt;strong&gt;my name is Gunner Clark&lt;/strong&gt;. I&amp;rsquo;m a software engineer with a passion for health and fitness. When I&amp;rsquo;m not building apps or frying PCBs I&amp;rsquo;m researching and testing different methods to improve health and performance.&lt;/p&gt;
 &lt;p&gt;This blog is intended to be a place for me to share anything that I feel is worth putting out into the world. I&amp;rsquo;m sure I&amp;rsquo;ll also use it to ramble about my latest hyperfixation. Time will tell!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Near-eye Display for Augmented Reality</title>
+      <link>https://gunnerclark.blog/posts/near-eye-display/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://gunnerclark.blog/posts/near-eye-display/</guid>
+      <description>&lt;p&gt;I have only been working on one project this month so I&amp;rsquo;m going to keep this post short and sweet.&lt;/p&gt;
+&lt;h2 id=&#34;near-eye-display-progress&#34; &gt;Near-eye Display Progress
+&lt;span&gt;
+    &lt;a href=&#34;#near-eye-display-progress&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;I have a near-eye display design that I&amp;rsquo;m working on so I purchased a microdisplay to test it out. The microdisplay I purchased doesn&amp;rsquo;t have an HDMI connection so I figured I would just solder one myself. To do that I&amp;rsquo;m following &lt;a href=&#34;https://www.youtube.com/watch?v=te11oV4KAzU&#34;&gt;Mañolo&amp;rsquo;s tutorial&lt;/a&gt; to wire an AV2HDMI adapter to a FLCOS so that it has an HDMI input. After this I&amp;rsquo;ll be able to test the near-eye display design and troubleshoot any issues with it.&lt;/p&gt;
+&lt;h2 id=&#34;wrap-up&#34; &gt;Wrap Up
+&lt;span&gt;
+    &lt;a href=&#34;#wrap-up&#34;&gt;
+        &lt;svg viewBox=&#34;0 0 28 23&#34; height=&#34;100%&#34; width=&#34;19&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34;/&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;&lt;p&gt;Once I get a functional prototype I&amp;rsquo;ll make another post to show the design.&lt;/p&gt;
 </description>
     </item>
     
